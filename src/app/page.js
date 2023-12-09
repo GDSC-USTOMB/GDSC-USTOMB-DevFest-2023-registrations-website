@@ -5,6 +5,7 @@ import { Trykker } from "next/font/google";
 import banner from "../../public/banner.png";
 import bracket1 from "../../public/bracket1.png";
 import bracket2 from "../../public/bracket2.png";
+import Swal from 'sweetalert2'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <div className="banner">
       <Image
         src={banner}
-        className="lg:h-[300px] h-[150px] mx-auto"
+        className="lg:h-[300px] w-full object-scale-down h-[150px] mx-auto"
         alt="banner"
       />
       </div>
@@ -22,7 +23,7 @@ export default function Home() {
       <div className="lg:px-[150px]">
         <div className="flex justify-center lg:gap-[80px] gap-[20px] ">
           <Image
-            className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px] "
+            className="w-[75px] h-[75px]  lg:w-[200px] lg:h-[200px] "
             src={bracket1}
             alt="bracket1"
           />
@@ -55,6 +56,7 @@ export default function Home() {
           Please fill out the following registration form to secure your spot at
           this exciting event.
         </p>
+        
       </div>
       <br />
       <br />
@@ -66,3 +68,4 @@ export default function Home() {
     </div>
   );
 }
+
