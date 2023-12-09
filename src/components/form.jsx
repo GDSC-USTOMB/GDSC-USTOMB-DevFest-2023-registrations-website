@@ -23,10 +23,10 @@ export default function form(){
       let newRegistration = new Registration({ fullname, email, phone, univ_comp, field, position, questions });
       await newRegistration.save();
       console.log(newRegistration);
-      redirect("/success/");
+      redirect("/success?#banner");
 
     } catch (error) {
-      redirect("/success/");
+      redirect("/success?#banner");
 
     }
     
