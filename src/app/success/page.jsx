@@ -6,7 +6,7 @@ import banner from "../../../public/banner.png";
 import { useEffect, useRef } from 'react';
 
 
-const Success = () => {
+const success = () => {
   const bannerRef = useRef(null);
 
   useEffect(() => {
