@@ -6,7 +6,7 @@ import banner from "../../../public/banner.png";
 import { useEffect, useRef } from 'react';
 
 
-const success = () => {
+const Success = () => {
   const bannerRef = useRef(null);
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const success = () => {
   );
 };
 
-export default success;
+export default Success;
