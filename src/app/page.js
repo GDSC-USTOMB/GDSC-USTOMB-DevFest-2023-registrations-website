@@ -28,16 +28,16 @@ export default function Home() {
             alt="bracket1"
           />
           <div className="">
-            <p className="text-center lg:text-[31px]">
+            <p className="text-center lg:text-[26px]">
               Welcome to <span className="font-bold ">DevFest Oran 2023</span>.
               <br />
               Hosted by <span className="font-bold ">GDSC USTO!</span>
             </p>
             <div className="flex gap-[20px] lg:mt-[30px] mt-[10px]  text-center justify-center   ">
-              <p className="lg:text-[26px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
+              <p className="lg:text-[24px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
                 16 Dec 2023
               </p>
-              <p className="lg:text-[26px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
+              <p className="lg:text-[24px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
                 9:30 AM
               </p>
             </div>
@@ -50,7 +50,7 @@ export default function Home() {
           />
         </div>
 
-        <p className="lg:text-[27px] px-[10px] mt-[20px] text-center">
+        <p className="lg:text-[22px] px-[10px] mt-[20px] text-center">
           We are excited to bring together tech enthusiasts, students, and
           professionals for a series of engaging talks and online workshops.
           Please fill out the following registration form to secure your spot at
