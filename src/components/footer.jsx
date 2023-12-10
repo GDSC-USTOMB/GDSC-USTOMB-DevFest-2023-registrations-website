@@ -13,23 +13,7 @@ import linkedin from "../../public/linkedin.png";
 const footer = () => {
   return (
     <div className="text-center flex flex-col gap-[30px]">
-      <div className="partners">
-        <h2 className="lg:text-5xl text-3xl font-semibold">
-          Event Sponsored By
-        </h2>
-        <div className="flex gap-[20px] mt-[20px] justify-center ">
-          <Image
-            alt="tayal"
-            src={tayal}
-            className=" w-[150px] h-[100px] lg:w-[230px]   lg:h-[180px]"
-          />
-          <Image
-            alt="usto"
-            src={usto}
-            className=" w-[100px] h-[100px] lg:w-[150px]   lg:h-[150px]"
-          />
-        </div>
-      </div>
+      
 
       <div className="socials">
         <h2 className="lg:text-5xl text-3xl mx- font-semibold">
