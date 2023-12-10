@@ -34,10 +34,10 @@ export default function Home() {
               Hosted by <span className="font-bold ">GDSC USTO!</span>
             </p>
             <div className="flex gap-[20px] lg:mt-[30px] mt-[10px]  text-center justify-center   ">
-              <p className="lg:text-[24px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
+              <p className="lg:text-[24px] text-[12px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
                 16 Dec 2023
               </p>
-              <p className="lg:text-[24px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
+              <p className="lg:text-[24px] text-[12px] font-semibold  bg-[#D9D9D9] lg:w-[200px] px-[20px] rounded-lg text-center">
                 9:30 AM
               </p>
             </div>
