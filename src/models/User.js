@@ -2,19 +2,22 @@ import mongoose from "mongoose";
 
 const registerSchema = new mongoose.Schema({
     fullname:{
-        type: String
+        type: String,
+        required: true
     },
     email : {
-        type:String
+        type:String,
+        required: true
     },
     phone :{
-        type:String
+        type:String,
+        required: true
     },
     univ_comp :{
-        type:String
+        type:String,
     },
     field: {
-        type:String
+        type:String,
     },
     position:{
         type:String
